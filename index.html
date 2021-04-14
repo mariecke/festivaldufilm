@@ -255,30 +255,39 @@
             <div class="row">
                 <div class="col-md-12">
                     <form id="resaForm" name="sentResa">
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <label for="inputEmail4">Nom</label>
-                                <input class="form-control" id="nomresa" type="text" placeholder="Nom"
-                                    aria-describedby="nomresa">
-                                   
+                      <div class="row">
+                        <div class="col">
+                          <form>
+                            <div class="form-row">
+                              <div class="form-group col-md-6 ">
+                                <label for="Nom">Nom</label>
+                                <input type="text" class="form-control" id="Nom">
+                              </div>
+                              <div class="form-group col-md-6 ">
+                                <label for="prénom">Prénom</label>
+                                <input type="text" class="form-control" id="prénom">
+                              </div>
                             </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputEmail4">Prénom</label>
-                                <input class="form-control" id="prenomresa" type="text" placeholder="Prénom"
-                                    aria-describedby="prenomresa">
-                                   
+                            <div class="form-group ">
+                              <label for="Mail">Email</label>
+                              <input type="email" class="form-control" id="Mail" >
                             </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputEmail4">Email</label>
-                                <input class="form-control" id="emailresa" type="email" placeholder="Adresse e-mail"
-                                    aria-describedby="emailresa">
-                                    
-                            </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputEmail4">Numéro de téléphone</label>
-                                <input class="form-control" id="telephoneresa" type="tel"
-                                    placeholder="Numéro de Téléphone" aria-describedby="telephoneresa">
-                            </div>
+                            <div class="form-row">
+                              <div class="form-group col-md-6 ">
+                                <label for="tel">Numéro de télephone</label>
+                                <input type="text" class="form-control" id="tel">
+                              </div>
+                              <div class="form-group col-md-4 text-center">
+                                <label for="place"> Nombre de places</label>
+                                <select id="place" class="form-control text-center">
+                                  <option selected>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                </select>
+                              </div>
+                          </form>
                             <div class="form-group col-md-8 offset-md-2 text-center">
                                 <label for="selection">Choix de la séance</label>
                                 <select class="form-control form-control-lg" id="selection">
@@ -304,9 +313,8 @@
                     </form>
                 </div>
             </div>
-
         </div>
-    </section>
+        </section>
 
     <section id="contact">
         <div class="container">
@@ -316,6 +324,7 @@
                     <h3 class="section-subheading text-muted">Pour tous renseignements complémentaires</h3>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <form id="contactForm" name="sentMessage" novalidate="novalidate">
@@ -370,7 +379,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
-</body>
 
  <footer>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
