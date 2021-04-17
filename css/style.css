@@ -1,17 +1,17 @@
 Code couleur bleu : 
-#03254c
-#1167b1
-#187bcd
-#2a9df4
-#d0efff
-rgb(13, 1, 44)
-
+#0C265A
+#AADBF6
+#43B9EB
+#4583C1
 
 h1 {
-    color: #03254c;
+    color: #0C265A 
 }
 
+h2 ; h3 {
+   color: #43B9EB
+}
 
 p {
-    color: rgb(13, 1, 44)
+    color: #0C265A
 }
